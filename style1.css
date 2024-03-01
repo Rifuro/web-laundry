@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.container h2 {
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+.container form input {
+    display: block;
+    width: calc(100% - 20px); /* Tambahkan padding 10px di setiap sisi */
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.container form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.container form button:hover {
+    background-color: #45a049;
+}
+
+.container a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+    margin-top: 10px;
+    display: block;
+}
+
+.container a:hover {
+    color: #0056b3;
+}
+
+.container form label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #555; /* Warna teks yang lebih gelap */
+}
+
+.container form small {
+    display: block;
+    text-align: left;
+    color: #777; /* Warna teks yang lebih gelap */
+    font-size: 0.8em; /* Ukuran font yang sedikit lebih kecil */
+}
